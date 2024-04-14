@@ -1,0 +1,63 @@
+:root {
+    --background: #000;
+    --color: #fff;
+    --button: #202020;
+    --buttonShade: #303030;
+}
+
+* {
+    background-color: var(--background);
+    color: var(--color);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.wrapper {
+    background-color: var(--background);
+    color: var(--color);
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+#maintext {
+    padding: 25px;
+}
+
+#lebutton {
+    border: none;
+    margin: 15px 15px;
+    border-radius: 20px;
+    width: 150px;
+    height: 75px;
+    font-size: 40px;
+    background-color: var(--button);
+    cursor: pointer;
+    background-image: linear-gradient(45deg, #D733FF, #FF339F);
+}
+
+#result-field {
+    border: none;
+    margin: 15px 15px;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+}
+
+#clearbutton {
+    border: none;
+    margin: 15px 15px;
+    border-radius: 20px;
+    width: 75px;
+    height: 30px;
+    font-size: 15px;
+    background-color: var(--button);
+    cursor: pointer;
+    background-color: #202020;
+}
